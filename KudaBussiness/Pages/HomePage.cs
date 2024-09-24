@@ -86,11 +86,12 @@ namespace SpareRoomAuto.Pages
         { 
             SearchTextfield.SendKeys(location);
         }
-        //public void ClickSearchButton() 
-        //{ SearchButton.Click(); 
+        public void ClickSearchButton()
+        {
+            SearchButton.Click();
 
-        //}
-       
-       
+        }
+
+
     }
 }
